@@ -1,9 +1,9 @@
 {
-  "name": "w0rkd-chat-widget",
-  "description": "Webcomponent w0rkd-chat-widget following open-wc recommendations",
+  "name": "@w0rkd/chat-widget",
+  "description": "Webcomponent w0rkd-chat-widget",
   "license": "MIT",
   "author": "Jose Matos",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "main": "dist/src/index.js",
   "module": "dist/src/index.js",
@@ -86,5 +86,8 @@
       "eslint --fix",
       "prettier --write"
     ]
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
